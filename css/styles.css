@@ -265,6 +265,16 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+/* .hero-background {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../image/herobackgraund.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 .hero-title {
   font-family: Roboto;
