@@ -124,8 +124,19 @@ img {
 .contacts-nav {
   display: flex;
   margin-left: auto;
+  justify-content: center;
+  align-items: center;
 }
-
+.item-mail-svg {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+}
+.item-phone-svg {
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+}
 .contacts-nav .mail-tel {
   font-weight: 500;
   font-size: 14px;
@@ -310,9 +321,17 @@ img {
   min-height: 101px;
   margin-right: 30px;
 }
-.pecularities-list {
+.pecularity-svg {
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #f5f4fa;
+  margin-bottom: 30px;
 }
-
+.svg-i {
+}
 .pecularities-title {
   text-transform: uppercase;
   font-weight: 700;
