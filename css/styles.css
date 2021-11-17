@@ -121,12 +121,6 @@ img {
   color: var(--accent-color);
 }
 
-.contacts-nav {
-  display: flex;
-  margin-left: auto;
-  justify-content: center;
-  align-items: center;
-}
 .item-mail-svg {
   height: 12px;
   width: 16px;
@@ -138,6 +132,9 @@ img {
   margin-right: 10px;
 }
 .contacts-nav .mail-tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -197,12 +194,6 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /*--------------- card ---------------------*/
-.card {
-}
-
-.card-thumb {
-}
-
 .title-conteiner {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
@@ -322,15 +313,20 @@ img {
   margin-right: 30px;
 }
 .pecularity-svg {
-  width: 270px;
-  height: 120px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  height: 120px;
+
   border-radius: 4px;
   background: #f5f4fa;
   margin-bottom: 30px;
 }
 .svg-i {
+  content: '';
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .pecularities-title {
   text-transform: uppercase;
