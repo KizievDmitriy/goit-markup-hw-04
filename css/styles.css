@@ -423,7 +423,8 @@ img {
   fill: var(--icon-fill);
 }
 
-.social-link:hover .comand-link {
+.social-link:hover .comand-link,
+.social-link:focus .comand-link {
   fill: var(--accent-text-color);
 }
 
