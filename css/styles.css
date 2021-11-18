@@ -241,7 +241,6 @@ img {
 .footer-item {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
 }
 .footer-item .item-link:not(:last-child) {
   display: flex;
@@ -265,6 +264,27 @@ img {
   text-decoration: none;
 }
 
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-box-title {
+  margin-bottom: 20px;
+  color: var(--accent-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-item-link {
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-item-fill {
+  fill: var(--accent-text-color);
+}
 /* ----------------------------------INDEXT.HTML ----------------------------------------*/
 
 /*--------------------- block-hero------------------------- */
@@ -448,13 +468,22 @@ img {
   border: 1px solid var(--icon-fill);
   border-radius: 4px;
 }
-.client-icon {
-  fill: var(--icon-fill);
-}
 .client-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
+  color: var(--icon-fill);
+}
+.client-icon {
+  fill: currentColor;
+}
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-color);
+}
+.client-item:hover,
+.client-item:focus {
+  border-color: var(--accent-color);
 }
