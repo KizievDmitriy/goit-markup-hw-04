@@ -127,12 +127,16 @@ img {
   height: 12px;
   width: 16px;
   margin-right: 10px;
+  fill: var(--title-text-color);
 }
+
 .item-phone-svg {
   height: 16px;
   width: 10px;
   margin-right: 10px;
+  fill: var(--title-text-color);
 }
+
 .contacts-nav .mail-tel {
   display: flex;
   justify-content: center;
@@ -194,6 +198,7 @@ img {
 .project-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 /*--------------- card ---------------------*/
 .title-conteiner {
@@ -424,8 +429,28 @@ img {
 
 .social-link:hover,
 .social-link:focus {
-   
   background-color: var(--accent-color);
 }
-/* ------------------------- Block-clients--------------------------
-
+/* ------------------------- Block-clients-------------------------- */
+.client-list {
+  display: flex;
+  margin-right: -1 * var(--item-card);
+}
+.client-item {
+  flex-basis: calc((100% / 6) - var(--item-card));
+  margin-right: var(--item-card);
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-fill);
+  border-radius: 4px;
+}
+.client-icon {
+  fill: var(--icon-fill);
+}
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
