@@ -55,6 +55,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+ul,
+li {
+  list-style: none;
+}
 /*--------------------------------------- heder --------------------------------------*/
 
 .page-header {
@@ -393,6 +397,24 @@ img {
   font-size: 16px;
   line-height: 1.18;
 }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+.comand-list {
+  width: 44px;
+  height: 44px;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
 /* ------------------------- Block-clients--------------------------
 .client {
   padding-top: 94px;
