@@ -238,6 +238,9 @@ img {
   font-size: 26px;
   line-height: 1.19;
 }
+.footer-list {
+  margin-top: 20px;
+}
 .footer-item {
   display: flex;
   flex-direction: column;
@@ -263,12 +266,16 @@ img {
 .footer a {
   text-decoration: none;
 }
-
 .footer-box {
+  display: flex;
+  align-items: baseline;
+}
+.social-box {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  margin-left: 70px;
 }
 .footer-box-title {
   margin-bottom: 20px;
@@ -279,6 +286,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .footer-item-link {
   background: rgba(255, 255, 255, 0.1);
 }
@@ -424,7 +432,6 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
 }
 .comand-list {
   width: 44px;
