@@ -491,7 +491,7 @@ img {
 .client-link:focus {
   color: var(--accent-color);
 }
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-link:focus {
   border-color: var(--accent-color);
 }
